@@ -12,14 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_capsword {
-            timout_ms = <50>;
-            require-prior-idle-ms = <150>;
-            bindings = <&caps_word>;
-            key-positions = <17 18>;
-            layers = <0 1>;
-        };
-
         combo_rshift {
             bindings = <&kp RSHFT>;
             key-positions = <22 21>;
