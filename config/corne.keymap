@@ -79,10 +79,10 @@
 
         numpad {
             bindings = <
-&trans  &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans    &kp C_VOL_UP  &kp C_PREV        &kp C_PP     &kp C_NEXT     &kp C_MUTE         &kp HOME
-&trans  &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans    &kp C_VOL_DN  &kp LEFT          &kp UP       &kp DOWN       &kp RIGHT          &kp END
-&trans  &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans    &trans        &kp LC(LG(LEFT))  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(LC(RIGHT))  &kp INSERT
-                                 &kp KP_NUMBER_0  &kp KP_ENTER     &trans    &trans        &trans            &trans
+&trans  &trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE      &kp C_VOL_UP  &kp C_PREV        &kp C_PP     &kp C_NEXT     &kp C_MUTE         &kp HOME
+&trans  &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY    &kp C_VOL_DN  &kp LEFT          &kp UP       &kp DOWN       &kp RIGHT          &kp END
+&trans  &kp KP_DOT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS       &trans        &kp LC(LG(LEFT))  &kp PAGE_UP  &kp PAGE_DOWN  &kp LG(LC(RIGHT))  &kp INSERT
+                                     &kp KP_NUMBER_0  &kp KP_PLUS      &trans             &trans        &trans            &trans
             >;
         };
 
