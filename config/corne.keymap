@@ -14,7 +14,7 @@
 
         combo_rshift {
             bindings = <&kp RSHFT>;
-            key-positions = <22 21>;
+            key-positions = <35 34>;
             layers = <0 1>;
         };
 
